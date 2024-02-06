@@ -25,7 +25,7 @@ Modify the CSS styles to match your preferred color scheme and design aesthetic.
 Enhance interactivity and engagement by experimenting with JavaScript animations and effects.
 
 **Examples:**
-Check out the live demo here to see the portfolio template in action.
+Check out the live demo here : https://tushar-gupta-portfolio.vercel.app/index.html
 
 **Contributing:**
 If you have any suggestions for improvements or would like to contribute to this project, feel free to submit a pull request or open an issue.
