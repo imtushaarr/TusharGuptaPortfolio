@@ -30,9 +30,6 @@ Check out the live demo here : https://tushar-gupta-portfolio.vercel.app/index.h
 **Contributing:**
 If you have any suggestions for improvements or would like to contribute to this project, feel free to submit a pull request or open an issue.
 
-<img width="1470" alt="Screenshot 2024-02-07 at 01 42 02" src="https://github.com/imtushaarr/TusharGuptaPortfolio/assets/92511269/921d9acb-c252-45ee-9272-1e8b7d63b48d">
-
-<img width="1470" alt="Screenshot 2024-02-07 at 01 42 17" src="https://github.com/imtushaarr/TusharGuptaPortfolio/assets/92511269/3a78aaf5-e674-4274-8a10-d64acb93df82">
 
 
 
