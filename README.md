@@ -1,5 +1,8 @@
 # Tushar Gupta Personal Portfolio
 
+![portfolio](https://github.com/user-attachments/assets/a20737ec-81b1-4f68-8791-b704405fd03d)
+
+
 Welcome to my GitHub repository dedicated to crafting a captivating personal portfolio using the power of HTML, CSS, and JavaScript. In this project, I aim to combine top-notch design principles with dynamic animations to showcase your skills and projects in the most impressive manner.
 
 **Features:**
