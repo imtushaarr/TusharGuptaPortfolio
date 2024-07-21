@@ -568,6 +568,8 @@ label #cancel{
     flex-direction: row;
     gap: 20px;
     margin-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
 
 .links-img {
