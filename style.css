@@ -590,6 +590,75 @@ label #cancel{
     margin-bottom: 12px;
 }
 
+#prjct-hero{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px 30px 20px 30px;
+}
+
+.ph-h{
+    width: 100%;
+    text-align: start;
+    margin-bottom: 20px;
+}
+
+.ph-h p {
+    text-transform: uppercase;
+    font-size: 10px;
+}
+
+.ph-h p span{
+    color: rgb(121, 180, 238);
+    cursor: pointer;
+}
+
+.ph-h h1{
+    text-transform: uppercase;
+    font-size: 42px;
+    font-weight: 1200;
+}
+
+.ph-img{
+    text-align: center;
+    width: 1200px;
+}
+
+.ph-img img{
+    width: 1200px;
+}
+.prjct-des{
+    text-align: justify;
+    overflow: hidden;
+    margin-top: 20px;
+    line-height: 30px;
+    font-family: 'Poppins', "sans-serif";
+    font-size: 16px;
+    color: #245773;
+    margin-bottom: 30px;
+}
+
+.pj-btn{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    gap: 10px;
+    margin-right: 1100px;
+    margin-bottom: 20px;
+}
+
+.pj-btn img{
+    width: 90px;
+    border-radius: 50px;
+}
+
+.error{
+    display: none;
+    text-align: center;
+    font-size: 12px;
+}
+
 
 /* mobile view */
 
@@ -799,4 +868,33 @@ label #cancel{
         font-size: 20px;
         line-height: 30px;
     }
+
+    #prjct-hero{
+
+    }
+    
+    .ph-h p {
+        font-size: 5px;
+    }
+    
+    .ph-h h1{
+        font-size: 22px;
+        width: 100%;
+        line-height: 30px;
+    }
+    
+    .ph-img{
+        width: 350px;
+    }
+    
+    .ph-img img{
+        width: 350px;
+    }
+    .prjct-des p{
+        line-height: 25px;
+        font-size: 12px;
+        color: #245773;
+        margin-bottom: 20px;
+    }
+    
 }
