@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tushar Gupta Resume</title>
+    <title>Quick Links</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
     <link rel="shortcut icon" href="imgs/Tushar Gupta -round.png" type="image/x-icon">
     <link rel="stylesheet" href="style.css">
@@ -33,54 +33,33 @@
                 </nav>
         </header>
     </div>
-    
-   <div id="resume">
-    <div class="resu-heading">
-        <h1>My Resume</h1>
+
+    <div id="links-hero">
+        <h6>Quick Links</h6>
+        <p>Welcome to the Quick Links page of my portfolio! Here, I’ve curated a collection of essential resources, including important websites, unique ideas, Figma design links, course links, and roadmap links. Each link has been personally selected by me to provide valuable and practical tools for your learning and development.
+            
+            Discover top websites, explore innovative concepts, and access exclusive design files. Find high-quality courses covering various topics and detailed roadmaps to guide your learning journey from beginner to advanced levels. All links are original or carefully chosen to ensure the best content.
+        </p>
+        <div class="links-con">
+            <div class="links-card">
+                <div class="links-img">
+                    <img src="/imgs/js-roadmap.png" alt="JavaScript Roadmap">
+                </div>
+                <div class="links-text">
+                    <div class="links-h5">
+                        <h5>Step by Step JavaScript Basic to Advance Level Roadmap</h5>
+                    </div>
+                    <div class="links-p">
+                        <p>I’m creating a comprehensive JavaScript roadmap for those who want to start learning this programming language. This roadmap provides a three-step module from basic to advanced levels, including tutorial references, documentation references, practice questions, and more to ensure better learning and practice.</p>
+                    </div>
+                    <div class="links-lnk">
+                        <a href="https://shorturl.at/ir74n" target="_blank">Click Here <i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+            </div>  
+        </div>    
     </div>
 
-    <div class="resu-img">
-        <img src="imgs/21BCS6751_TusharGupta_page-0001.jpg" alt="resume">
-    </div>
-
-    <div class="resu-dwnld">
-        <button onclick="downloadFile()"><i class="fa-solid fa-chevron-down"></i> Download</button>
-    </div>
-   </div>
-
-
-
-    <script src="app.js"></script>
-
-    <script>
-        var loader = document.getElementById("pre-loader");
-        window.addEventListener("load", function(){
-            loader.style.display = "none";
-        });
-
-        function downloadFile() {
-        // Replace 'path/to/your/file.pdf' with the actual path to your file
-        var fileUrl = 'imgs/21BCS6751_TusharGupta_page-0001.jpg';
-
-        // Create a temporary link element
-        var link = document.createElement('a');
-
-        // Set the href attribute with the file URL
-        link.href = fileUrl;
-
-        // Specify the file name for the download
-        link.download = 'TusharGupta_Resume.pdf';
-
-        // Append the link to the document
-        document.body.appendChild(link);
-
-        // Trigger a click on the link to start the download
-        link.click();
-
-        // Remove the link from the document
-        document.body.removeChild(link);
-    }
-    </script>
-    
+        
 </body>
 </html>
