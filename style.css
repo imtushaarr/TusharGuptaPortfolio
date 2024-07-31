@@ -595,7 +595,7 @@ label #cancel{
 #prjct-hero{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
     text-align: center;
     padding: 20px 30px 20px 30px;
 }
@@ -623,6 +623,7 @@ label #cancel{
 }
 
 .ph-img{
+    margin-left: 100px;
     text-align: center;
     width: 1200px;
 }
@@ -639,6 +640,38 @@ label #cancel{
     font-size: 16px;
     color: #245773;
     margin-bottom: 30px;
+}
+
+.prjct-des h3{
+    margin-top: 20px;
+    margin-bottom:20px;
+    color: black;
+}
+
+.prjct-des li{
+    text-decoration: none;
+    color: #245773;
+    font-family: 'Poppins', "sans-serif";
+    font-weight: 400;
+}
+
+.prjct-des li span{
+    color: black;
+    font-weight: 500;
+}
+
+.prjct-des h2{
+    color: black;
+    margin-bottom: 20px;
+    font-weight: 1000;
+}
+
+.prjct-des p span{
+    color: black;
+}
+
+.prjct-des p code{
+    background-color: rgba(251, 255, 179, 0.796);
 }
 
 .pj-btn{
@@ -886,11 +919,11 @@ label #cancel{
     }
     
     .ph-img{
-        width: 350px;
+        width: 220px;
     }
     
     .ph-img img{
-        width: 350px;
+        width: 220px;
     }
     .prjct-des p{
         line-height: 25px;
@@ -899,4 +932,21 @@ label #cancel{
         margin-bottom: 20px;
     }
     
+    .prjct-des p {
+        margin-bottom: 10px;
+    }
+
+    .prjct-des h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .prjct-des h3 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .prjct-des p code{
+        font-size: 10px;
+    }
 }
