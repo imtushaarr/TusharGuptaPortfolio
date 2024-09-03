@@ -15,7 +15,7 @@
 
     <div id="header">
         <header>
-            <a href="#"><img src="imgs/Tushar Gupta -round.png" alt="icon"></a>
+            <a href="#"><img id="mainImage" src="" alt="icon"></a>
                 <nav>
                     <input type="checkbox" id="check">
                     <label for="check">
@@ -86,6 +86,15 @@
         window.addEventListener("load", function(){
             loader.style.display = "none";
         });
+
+        const mainImage = document.getElementById("mainImage");
+        const url = "https://api.github.com/users/imtushaarr";
+
+        fetch(url).then(response => response.json()).then(data =>{
+            mainImage.src = data.avatar_url; 
+            mainImage.alt = "User Avatar";
+        }
+
     </script>
     
 </body>
